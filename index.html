@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<!-- font family -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Droid+Sans:400,700|Noto+Sans" rel="stylesheet">
+	<!-- aos css -->
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<title>immjobs</title>
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+	<header class="container-fluid p-0 ">
+		<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+		  	<a class="navbar-brand text-light p-0 m-0" href="#">
+		  		<h1 class="p-0 m-0 company_name" style="font-family: 'Quicksand', sans-serif;">iimjobs</h1>
+		  		<span style="float: right">.com</span>
+				<p class="logo_tagline p-0 m-0"></p>
+			</a>
+
+
+			<div class="d-flex justify-content-end w-75">
+				<a target="_blank" href="http://localhost/i_project/jobseeker.php" target="_blank">
+					<button class="hover-button p-2" type="button"><span>Jobseeker Login</span></button>
+				</a>
+			</div>
+		
+		</nav>
+
+		<div class="container jumbotron">
+			<div class="row">
+				<div class="col-md-6">
+					<h1 class="wrap">We <i class="fa fa-heart-o"></i><br/>Recruiting 
+					</h1>
+					<div class="pt-3">
+						<img src="image/intro-image.png" width="100%">
+					</div>
+				</div>
+				<div class="col-md-6 p-5 post_job_free">
+					<div>
+						<h3 class="ml-5 mb-5 pl-5 free">Post a job for free</h3>
+					</div>
+					<div>
+						<form class="ml-5 pl-5 login-recruiting">
+							<div class="form-group">
+							    
+							    <input type="email" class="form-control w-75" placeholder="Enter email">
+							    
+							</div>
+							<div class="form-group position-relative">
+							    
+							    <input type="password" class="form-control w-75" id="exampleInputPassword1" placeholder="Password">
+							    <i class="fa fa-eye position-absolute" style="top:12px;right: 25%;"></i>
+							</div>
+							<button class="btn text-white font-weight-bold w-75" style="background-color:#0c9175;font-size: 18px;border-color: #8f8a8a;font-family:Droid Sans">Login</button><br/>
+							
+						</form>
+						<p class="p-0 text-center m-0 forget-password text-info">Forget Password?</p>
+						<p class="mt-2 text-center">Don't have an account?<span class="text-info register_span" style="cursor:pointer;">Register</span></p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<h1 class="text-center mb-4"><span>Hiring is now simple</span></h1>
+			<div class="hero-container">
+				<div class="hero-content text-container left">
+					<div class="abc">
+								<h3 class="hero-title">Post a job</h3>
+								<p class="hero-text">Tell us about your role and we&#39;ll reach out to the right candidates.</p>
+					</div>
+				</div>
+				<div class="hero-content image-container right" data-aos="fade-left" data-aos-once="true">
+					<img src=image/hero-image-1.png>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+
+			<div class="hero-container">
+						<div class="hero-content text-container right">
+							<div class="abc">
+								<h3 class="hero-title">Review Candidates</h3>
+								<p class="hero-text">Browse profiles, shortlist and reject with a simple click.</p>
+							</div>
+						</div>
+						<div class="hero-content image-container left" data-aos="fade-right"  data-aos-once="true">
+							<img src=image/hero-image-2.png>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+			<div class="hero-container">
+				<div class="hero-content text-container left">
+					<div class="abc">
+								<h3 class="hero-title">Communicate</h3>
+								<p class="hero-text">Chat with your candidates and schedule interviews without<br/> multiple back-and-forth.</p>
+					</div>
+				</div>
+				<div class="hero-content image-container right" data-aos="fade-left" data-aos-once="true">
+					<img src=image/hero-image-3.png>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+
+			<div class="hero-container">
+						<div class="hero-content text-container right">
+							<div class="abc">
+								<h3 class="hero-title">Hire</h3>
+								<p class="hero-text">Reduce your cost of hiring and time taken to hire.</p>
+							</div>
+						</div>
+						<div class="hero-content image-container left" data-aos="fade-right" data-aos-once="true">
+							<img src=image/hero-image-4.png>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+
+		</div>
+
+
+	
+	</header>
+
+	<section>
+		<div class="highlight-wrapper">
+			<div class="main-container">
+				<div class="container">
+					<h1 class="text-center"><span class="center-highlight">Reach out to quality candidates across top domains</span></h1>
+
+					<ul class="category-listing">
+								<li class="category-item border-bottom border-right">
+									<div class="category-icon">
+										<img src="image/finance-job-icon.png">
+									</div>
+									<div class="category-title">
+										<h4>Finance</h4>
+									</div>
+								</li>
+								<li class="category-item border-bottom border-right">
+									<div class="category-icon">
+										<img src="image/sales-marketing-job-icon.png">
+									</div>
+									<div class="category-title">
+										<h4>Sales &amp; Marketing</h4>
+									</div>
+								</li>
+								<li class="category-item border-bottom border-right">
+									<div class="category-icon">
+										<img src="image/consulting-job-icon.png">
+									</div>
+									<div class="category-title">
+										<h4>Consulting</h4>
+									</div>
+								</li>
+								<li class="category-item border-bottom border-right">
+									<div class="category-icon">
+										<img src="image/hr-job-icon.png">
+									</div>
+									<div class="category-title">
+										<h4>HR</h4>
+									</div>
+								</li>
+								<li class="category-item border-bottom border-right">
+									<div class="category-icon">
+										<img src="image/it-job-icon.png">
+									</div>
+									<div class="category-title">
+										<h4>IT &amp; Systems</h4>
+									</div>
+								</li>
+								<li class="category-item border-bottom border-right">
+									<div class="category-icon">
+										<img src="image/operations-job-icon.png">
+									</div>
+									<div class="category-title">
+										<h4>Operations</h4>
+									</div>
+								</li>
+								<li class="category-item border-bottom border-right">
+									<div class="category-icon">
+										<img src="image/legal-job-icon.png">
+									</div>
+									<div class="category-title">
+										<h4>Legal</h4>
+									</div>
+								</li>
+								<li class="category-item border-bottom border-right">
+									<div class="category-icon">
+										<img src="image/bpo-job-icon.png">
+									</div>
+									<div class="category-title">
+										<h4>BPO</h4>
+									</div>
+								</li>
+						<div class="clearfix"></div>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="main-wrapper footer-bottom jumbotron mb-0">
+			<div class="main-container">
+				<div class="recruit-container container mt-5">
+					<div class="hero-image-container left">
+						<img src=image/hero-image-5.png>
+					</div>
+					<div class="hero-content-container right">
+						<h3>Recruit on the go</h3>
+
+						<ul class="feature-listing">
+							<li class="feature-item">Easily organize and manage your candidate applications on the go</li>
+							<li class="feature-item">Simple and intuitive interface</li>
+							<li class="feature-item">The ability to shortlist, reject and save individual profiles for future reference</li>
+							<li class="feature-item">The ability to download resumes on your mobile device for detailed viewing and sharing</li>
+						</ul>
+
+						<div class="download-section">
+							<p>Download our apps</p>
+							<a href=https://play.google.com/store/apps/details?id=com.iimjobs.recruiter><span class="button white android">Android</span></a>
+							<a href=https://itunes.apple.com/in/app/iimjobs-for-recruiters/id1128755739?mt=8><span class="button white ios">iPhones</span></a>
+						</div>
+					</div>
+						<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>		
+	</section>
+
+
+	<footer>
+		<div class="container jumbotron pb-0 mb-0">
+			<div class="row">
+				<div class="col-md-3">
+					<ul class="footer-links-list">
+						<li class="footer-link-item header-link">
+							<a href="#" class="link-header">COMPANY</a>
+						</li>
+						<li class="footer-link-item home">
+							<a href="#" class="link-header">Home</a>
+						</li>
+						<li class="footer-link-item about">
+							<a href="#" class="link-header">About Us</a>
+						</li>
+						<li class="footer-link-item">
+							<a href="#" class="link-header">Contact</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<ul class="footer-links-list">
+						<li class="footer-link-item header-link">
+							<a href="#" class="link-header">INFORMATION</a>
+						</li>
+						<li class="footer-link-item home">
+							<a href="#" class="link-header">Blog</a>
+						</li>
+						<li class="footer-link-item about">
+							<a href="#" class="link-header">Privacy</a>
+						</li>
+					
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<ul class="footer-links-list">
+						<li class="footer-link-item-second header-link">
+							<a href="#" class="link-header">OTHER PORTALS</a>
+						</li>
+						<li class="footer-link-item-second">
+							<a href="#" class="link-header">hirist.com - IT Jobs</a>
+						</li>
+						<li class="footer-link-item-second">
+							<a href="#" class="link-header">updazz.com - Sales Jobs</a>
+						</li>
+						<li class="footer-link-item-second">
+							<a href="#" class="link-header">engineeristic.com - Engineering Jobs</a>
+						</li>
+						<li class="footer-link-item-second">
+							<a href="#" class="link-header">biojoby.com - Medical Jobs</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<ul class="footer-links-list">
+						<li class="footer-link-item-second header-link">
+							<a href="#" class="link-header">SALES ENQUIRIES</a>
+						</li>
+						<li class="footer-link-item-second">
+							<a href="#" class="link-header">Toll Free No. (9:30 AM to 6:30 PM)</a>
+						</li>
+						<li class="footer-link-item-second">
+							<a href="#" class="link-header"><i class="fa fa-phone"></i> 1800-103-7344</a>
+						</li>
+						<li class="footer-link-item-second">
+							<a href="#" class="link-header"><i class="fa fa-envelope"></i>  buynow@iimjobs</a>
+						</li>
+						<li class="footer-link-item-second">
+							<a href="#" class="link-header">Customer Support</a>
+						</li>
+						<li class="footer-link-item-second">
+							<a href="#" class="link-header"><i class="fa fa-envelope"></i> info@iimjobs</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-12">
+					<div id="social">
+					  <div id="container" class="d-flex justify-content-center w-100">
+					    	<div class="social-media-icon mr-4">
+					           <a href="url" title="facebook" target="_blank">
+					              <i class="fa fa-facebook facebook"></i>
+					           </a>
+					        </div>
+					    	<div class="social-media-icon mr-4">
+					           <a href="url" title="linkedin" target="_blank">
+					              <i class="fa fa-linkedin linkedin"></i>
+					           </a>
+					        </div>
+
+					        <div class="social-media-icon">
+					           <a href="url" title="twitter" target="_blank">
+					              <i class="fa fa-twitter twitter"></i>
+					           </a>
+					       	</div>
+					  </div>
+					</div>
+				</div>
+				<div class="col-12 text-center text-light my-3">
+					<span>iimjobs.com © 2021. All rights reserved.</span>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div class="modal-overlay d-none">
+		<div class="modal-content recruiter-register-modal">
+			<div class="close-modal close">
+				<i class="fa fa-close" style="font-size:15px;"> </i>
+			</div>
+
+			<div class="recruiter-form">
+				<h3 class="text-center">New Recruiter Registration</h3>
+				<div class="form-group">
+					<input type="text" placeholder="Name" name="name">
+					<div class="error"></div>
+				</div>
+
+				<div class="form-group">
+					<input type="email" placeholder="Your Work email id(Not Google/Yahoo)" name="email">
+					<div class="error"></div>
+				</div>
+
+				<div class="form-group">
+					<input type="number" placeholder="Phone" name="phone">
+					<div class="error"></div>
+				</div>
+
+				<div class="form-group">
+					<input type="text" placeholder="Designation" name="designation">
+					<div class="error"></div>
+				</div>
+
+				<div class="form-group">
+					<input type="text" placeholder="Organization" name="Organization">
+					<div class="error"></div>
+				</div>
+
+				<div class="form-group">
+					<input type="password" placeholder="password" name="password">
+					<div class="error"></div>
+				</div>
+
+				<div class="form-group">
+					<input type="password" placeholder="Confirm Password" name="confirm_password">
+					<div class="error"></div>
+				</div>
+
+				<div class="form-group ">
+					<select class="form-control">
+						<option>Select Recruiter Type</option>
+						<option>Direct Employer</option>
+						<option>Recruitment Firm</option>
+					</select>
+
+				</div>
+
+				<button type="submit" class="btn w-100" style="border: 0;background: #0c9175;border-color: #8f8a8a;border-radius: 4px;border: 0;width: 100%;padding: 12px;color: #FFF;display: inline-block;cursor: pointer;font-size: 18px;font-weight: bold;height: 45px;">Register Now</button>
+
+			</div>
+		</div>
+	</div>
+    <!-- bootstrap js -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<script src="js/script.js"></script>
+</body>
+</html>
